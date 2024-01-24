@@ -6,5 +6,11 @@
   justify-content: center;
 }
 .orange {
-  background-color: orange;
+  background-color: rgb(229, 154, 14);
+}
+.black {
+  background-color: rgb(12, 11, 11);
+}
+.gray {
+  background-color: rgb(81, 80, 80);
 }

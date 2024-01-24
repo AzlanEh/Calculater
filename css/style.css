@@ -3,16 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(29, 29, 29);
+}
 h1 {
   padding: 40px 0px;
+  color: whitesmoke;
 }
 .container {
   padding: 0px 0px 15px 0px;
 }
 .input {
   width: 210px;
-  height: 40px;
+  height: 45px;
   padding: 3px 5px;
+  border-radius: 10px;
 }
 
 .numpad {
@@ -25,4 +30,9 @@ h1 {
   width: 49px;
   height: 35px;
   border-radius: 10px;
+  color: whitesmoke;
+}
+
+.button:hover {
+  opacity: 0.55;
 }
