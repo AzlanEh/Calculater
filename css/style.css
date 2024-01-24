@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding: 40px 0px;
+}
+.container {
+  padding: 0px 0px 15px 0px;
+}
+.input {
+  width: 210px;
+  height: 40px;
+  padding: 3px 5px;
+}
+
+.numpad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.button {
+  width: 49px;
+  height: 35px;
+  border-radius: 10px;
+}
